@@ -10,6 +10,10 @@ readme = "README.md"
 python = "^3.11"
 flask = "^3.0.3"
 requests = "^2.31.0"
+readability-lxml = "^0.8.1"
+lxml-html-clean = "^0.1.1"
+txtai = "^7.0.0"
+nanoid = "^2.0.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.3.0"
