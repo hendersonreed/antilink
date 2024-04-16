@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "antilink"
+version = "0.1.0"
+description = "A bookmark explorer based on semantic search, suitable for building digital antilibraries."
+authors = ["Henderson Reed Hummel <reed.hummel@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.3"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+dev = "antilink.main:dev"
+
